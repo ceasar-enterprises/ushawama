@@ -1,0 +1,50 @@
+# dependencies
+node_modules/
+
+# expo / metro
+.expo/
+.expo-shared/
+dist/
+web-build/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# native builds
+ios/
+android/
+*.ipa
+*.aab
+
+# runtime state + user data (escrows, listings, payments, tracking, market cache,
+# and the NEBULA event log). Every loader falls back to an empty state when the
+# file is missing, so the app runs fine on a fresh clone.
+data/
+
+# secrets - never commit real keys
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets.json
+
+# logs
+*.log
+npm-debug.*
+yarn-error.*
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# local tooling
+tmp/
+.cache/
+coverage/

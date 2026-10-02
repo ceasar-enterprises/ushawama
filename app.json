@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Ushawama",
+    "slug": "ushawama",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#0B4F3A"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ushawama.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0B4F3A"
+      },
+      "package": "com.ushawama.app",
+      "permissions": ["RECORD_AUDIO", "INTERNET"]
+    },
+    "plugins": [],
+    "extra": {
+      "eas": { "projectId": "ushawama-pilot" }
+    }
+  }
+}

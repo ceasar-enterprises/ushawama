@@ -1,0 +1,52 @@
+{
+  "name": "ushawama",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "api": "node src/api/server.js",
+    "lint": "expo lint",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~4.0.1",
+    "@expo/vector-icons": "^14.0.0",
+    "@react-navigation/bottom-tabs": "^7.0.0",
+    "@react-navigation/native": "^7.0.0",
+    "@react-navigation/native-stack": "^7.0.0",
+    "cors": "^2.8.5",
+    "expo": "~52.0.0",
+    "expo-asset": "~11.0.0",
+    "expo-av": "~15.0.0",
+    "expo-font": "~13.0.0",
+    "expo-haptics": "~14.0.0",
+    "expo-linking": "~7.0.0",
+    "expo-modules-core": "^2.2.3",
+    "expo-speech": "~13.0.0",
+    "expo-sqlite": "~15.0.0",
+    "expo-status-bar": "~2.0.0",
+    "express": "^4.21.0",
+    "react": "18.3.1",
+    "react-dom": "^18.3.1",
+    "react-native": "0.76.9",
+    "react-native-safe-area-context": "4.14.1",
+    "react-native-screens": "~4.4.0",
+    "react-native-vector-icons": "^10.0.0",
+    "react-native-web": "^0.19.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.0",
+    "@types/react": "~18.3.0",
+    "babel-plugin-module-resolver": "^5.0.3",
+    "eslint": "^8.57.0",
+    "eslint-config-expo": "~8.0.1",
+    "metro": "^0.81.1",
+    "typescript": "~5.3.0"
+  },
+  "private": true
+}
